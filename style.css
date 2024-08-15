@@ -1,0 +1,457 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 27px 135px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+button {
+    all: unset;
+
+}
+
+.button {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    color: #ED017F;
+    border: 1px solid #ED017F;
+}
+
+article {
+    padding: 100px 0 72px 0;
+}
+
+article h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    width: 109px;
+
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.search {
+    display: flex;
+
+    position: relative;
+}
+
+.search img {
+    margin-right: 33px;
+    object-fit: contain;
+    z-index: 100 !important;
+    position: absolute;
+}
+
+.special-button {
+    background-color: #ED017F;
+    color: white;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.moto {
+    margin-top: 142px;
+    height: 629px;
+}
+
+
+.moto-heading {
+    font-size: 63px;
+}
+
+.moto p {
+    margin: 23px 0 38px 0;
+    color: #676767;
+    font-size: 16px;
+}
+
+.call-to-action {
+    display: flex;
+    gap: 30px
+}
+
+.contact {
+    display: flex;
+    gap: 16px;
+    margin-top: 160px;
+}
+
+.contact img {
+    width: 24px;
+    object-fit: contain;
+}
+
+.contact span {
+    font-weight: bold;
+    padding-right: 18px;
+    border-right: 2px solid #CCCCCC;
+}
+
+.side-img {
+    position: relative;
+    width: 57%;
+    height: 682px;
+    /* border: 1px solid red; */
+}
+
+.inside-side {
+    position: absolute;
+    top: -86px;
+    background-color: #FFEAF5;
+    height: 100%;
+    width: 100%;
+    right: -135px;
+    color: white;
+    z-index: -1;
+}
+
+.side-img img {
+    object-fit: cover;
+    position: absolute !important;
+    left: 0;
+    bottom: 0;
+}
+
+.description {
+    text-align: center;
+}
+
+article p {
+    color: #999999;
+    font-size: 16px;
+    margin-top: 20px
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 76px;
+
+
+}
+
+.card {
+    padding: 24px 75px 24px 24px;
+
+    max-width: 300px;
+    border-radius: 10px;
+
+
+
+}
+
+.card img {
+    padding-bottom: 18px;
+}
+
+.partners {
+    padding: 78px 0 69px 0;
+    background-color: #FCE0EF33;
+
+    margin: auto;
+    max-width: 1440px;
+}
+
+.business-images {
+    display: flex;
+    justify-content: space-around;
+    padding: 88px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+
+}
+
+.partners h3 {
+    text-align: center;
+    color: #343434;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.dots li {
+    width: 10px;
+    content: "";
+    color: black;
+    height: 10px;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+}
+
+.dots :first-child {
+    background-color: #ED017F;
+    width: 13px;
+    height: 13px;
+}
+
+.IPDC {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.flower-image {
+    /* width: 618px; */
+}
+
+.content p {
+    color: #363940;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-top: 10px;
+}
+
+.read-more {
+    color: #ED017F;
+    display: flex;
+    margin-top: 30px;
+}
+
+.our-services {
+    background-color: #FEF9FC;
+    padding: 106px 0 130px 0;
+}
+
+.image-wrapper {
+    padding: 64px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.our-services-header {
+    text-align: center;
+    font-size: 36px;
+}
+
+.our-services p {
+    color: #999999;
+    text-align: center;
+}
+
+.arrow-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    margin-top: 22px;
+    font-weight: 600px;
+}
+
+.arrow-wrapper img {
+    object-fit: contain;
+}
+
+.arrow-wrapper p {
+    text-align: left;
+    color: #363940;
+    font-weight: 600;
+}
+
+.result-info h3 {
+    font-size: 40px;
+}
+
+.special-header {
+    color: #ED017F;
+}
+
+.result-info p {
+    /* font-size: 16px;
+    font-weight: 400; */
+    /* text-transform: uppercase; */
+
+}
+
+
+
+
+.last {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.last img {
+    width: 24px;
+    object-fit: contain;
+}
+
+.footer {
+    margin: 70px 0px;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-card {
+    max-width: 300px;
+}
+
+.footer-card ul li {
+    margin-bottom: 10px;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-card p {
+
+    padding-bottom: 20px;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.flower-image img {
+
+    object-fit: contain;
+}
+
+.subscribe {
+    padding: 100px 0 116px 0;
+    background-color: #FEF9FC;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bnt-input {
+    padding-bottom: 20px;
+    margin-top: 34px;
+}
+
+.subscribe p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #999999;
+
+}
+
+.input-email {
+    width: 380px;
+    color: #999999;
+    padding: 15px 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+}
+
+.sub-btn {}
+
+.news-heading {
+    color: #343434;
+    text-align: center;
+
+}
+
+@media (max-width: 1000px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grids {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .IPDC {
+        flex-direction: column;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grids {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-content: center;
+    }
+
+    .IPDC {
+        flex-direction: column;
+    }
+
+    .image-wrapper {
+        justify-content: center;
+
+    }
+
+    .image-wrapper:first-child {
+        margin-bottom: 30px;
+    }
+
+    .service-card {
+        margin-bottom: 20px;
+    }
+
+    body {
+        margin: 0px 30px;
+    }
+}
